@@ -1,116 +1,86 @@
-\# QA Automation Project
+# QA Automation Project
 
+This project is a QA automation testing project built using Python, Playwright, and pytest.
 
+It demonstrates a complete end-to-end testing flow with a structured and maintainable design.
 
-This is a QA automation testing project built with Python, Playwright, and pytest.
+---
 
+## 🔧 Tech Stack
 
+- Python
+- Playwright
+- pytest
 
-\## 🔧 Tech Stack
+---
 
-\- Python
-
-\- Playwright
-
-\- pytest
-
-
-
-\## 📁 Project Structure
-
-
+## 📁 Project Structure
 
 qa-project/
-
 ├─ pages/
-
-│ ├─ login\_page.py
-
-│ └─ secure\_page.py
-
+│ ├─ login_page.py
+│ └─ secure_page.py
 ├─ tests/
-
-│ └─ test\_login.py
-
+│ └─ test_login.py
 ├─ conftest.py
-
 ├─ requirements.txt
 
 
+---
 
+## 🧪 Test Scenario
 
+This project covers a complete login and logout flow:
 
-\## 🧪 Test Scenario
+- Login with valid credentials → Navigate to secure page → Logout → Verify logout success
+- Login with invalid username → Show error message
+- Login with invalid password → Show error message
 
+---
 
+## 🔁 Key Features
 
-This project covers a complete login flow:
+### ✅ Page Object Model (POM)
+- Separates page logic from test logic
+- Improves maintainability and readability
 
+### ✅ Data-driven Testing
+- Uses pytest `parametrize` to test multiple scenarios
+- Avoids duplicated test code
 
+### ✅ Multi-page Flow Testing
+- Covers full user journey:
+  - Login Page → Secure Page → Logout → Back to Login Page
 
-\- Login with valid credentials → success page → logout
+### ✅ Fixture Management
+- Uses pytest fixture to handle browser setup and teardown
 
-\- Login with invalid username → error message
+---
 
-\- Login with invalid password → error message
-
-
-
-\## 🔁 Features
-
-
-
-\- Page Object Model (POM)
-
-\- Data-driven testing (pytest parametrize)
-
-\- Multi-page flow testing
-
-\- Fixture for browser setup
-
-
-
-\## 🚀 How to Run
-
-
+## 🚀 How to Run
 
 ```bash
-
-\# create virtual environment
-
+# create virtual environment
 python -m venv venv
 
+# activate (Windows)
+venv\Scripts\activate
 
-
-\# activate
-
-venv\\Scripts\\activate
-
-
-
-\# install dependencies
-
+# install dependencies
 pip install -r requirements.txt
 
-
-
-\# install browsers
-
+# install browser
 python -m playwright install
 
-
-
-\# run tests
-
+# run tests
 python -m pytest -s
 
+💡 What I Learned
+How to build an automation testing framework using pytest
+How to apply Page Object Model (POM) for better code structure
+How to design data-driven test cases using parametrize
+How to handle multi-page testing flow
+Basic Git and GitHub workflow for project management
+📌 Notes
 
-
-Notes
-
-This project is for learning QA automation and demonstrating testing skills.
-
-
-
-
-
+This project is created for learning QA automation and preparing for QA-related roles.
