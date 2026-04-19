@@ -82,11 +82,15 @@ python -m playwright install
 # run tests
 python -m pytest -s
 
+---
+
 ## 📊 Test Report
 
-Download the test report here:
+The test report can be found here:
 
-- report.html
+- [Download report.html](./report.html)
+
+---
 
 💡 What I Learned
 How to build an automation testing framework using pytest
