@@ -17,12 +17,19 @@ It demonstrates a complete end-to-end testing flow with a structured and maintai
 ## 📁 Project Structure
 
 qa-project/
+
 ├─ pages/
+
 │ ├─ login_page.py
+
 │ └─ secure_page.py
+
 ├─ tests/
+
 │ └─ test_login.py
+
 ├─ conftest.py
+
 ├─ requirements.txt
 
 
