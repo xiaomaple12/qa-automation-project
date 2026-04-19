@@ -88,7 +88,7 @@ python -m pytest -s
 
 The test report can be found here:
 
-- [Download report.html](./report.html)
+- https://xiaomaple12.github.io/qa-automation-project/report.html
 
 ---
 
