@@ -82,12 +82,23 @@ python -m playwright install
 # run tests
 python -m pytest -s
 
+## 📊 Test Report
+
+The test report can be found in the repository:
+
+- report.html (download and open locally)
+
+## 📊 Test Report Preview
+
+![report](./report.png)
+
 💡 What I Learned
 How to build an automation testing framework using pytest
 How to apply Page Object Model (POM) for better code structure
 How to design data-driven test cases using parametrize
 How to handle multi-page testing flow
 Basic Git and GitHub workflow for project management
+
 📌 Notes
 
 This project is created for learning QA automation and preparing for QA-related roles.
