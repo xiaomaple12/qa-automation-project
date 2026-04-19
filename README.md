@@ -84,13 +84,9 @@ python -m pytest -s
 
 ## 📊 Test Report
 
-The test report can be found in the repository:
+Download the test report here:
 
-- report.html (download and open locally)
-
-## 📊 Test Report Preview
-
-![report](./report.png)
+- report.html
 
 💡 What I Learned
 How to build an automation testing framework using pytest
