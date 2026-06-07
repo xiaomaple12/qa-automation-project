@@ -1,0 +1,13 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Pytest cache
+.pytest_cache/
+
+# Playwright cache
+playwright-report/
+test-results/
